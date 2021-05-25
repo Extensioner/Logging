@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore21", "NETCore2.1\NETCore21.csproj", "{42DD9C63-1E71-44D4-8D94-042BE8C16313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETFramework461", "NETFramework461\NETFramework461.csproj", "{6B9308A9-EC53-4E32-BE2C-B3EE4444A057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET5", "NET5\NET5.csproj", "{DA589B19-4C2C-4E84-8D9B-3AF7DEC0E7DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42DD9C63-1E71-44D4-8D94-042BE8C16313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DD9C63-1E71-44D4-8D94-042BE8C16313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DD9C63-1E71-44D4-8D94-042BE8C16313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DD9C63-1E71-44D4-8D94-042BE8C16313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9308A9-EC53-4E32-BE2C-B3EE4444A057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9308A9-EC53-4E32-BE2C-B3EE4444A057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9308A9-EC53-4E32-BE2C-B3EE4444A057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9308A9-EC53-4E32-BE2C-B3EE4444A057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA589B19-4C2C-4E84-8D9B-3AF7DEC0E7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA589B19-4C2C-4E84-8D9B-3AF7DEC0E7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA589B19-4C2C-4E84-8D9B-3AF7DEC0E7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA589B19-4C2C-4E84-8D9B-3AF7DEC0E7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2C89309-A192-40BB-A619-3384DE861867}
+	EndGlobalSection
+EndGlobal
