@@ -2,15 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Extensioner</Authors>
-    <Description>基于log4net封装,该类库实现Log.Debug,Log.Info,Log.Error三个静态方法,导入log4net.config配置模板即可使用,注意配置中的Log4NetLogger节点不可变更.</Description>
+    <Description>日志工具类</Description>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Copyright>Copyright © 2021 Extensioner</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageTags>Logging,Log</PackageTags>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
+    <PackageProjectUrl>https://github.com/Extensioner/Logging</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Extensioner/Logging</RepositoryUrl>
+    <PackageReleaseNotes>None</PackageReleaseNotes>
+    <RepositoryType>None</RepositoryType>
+    <NeutralLanguage />
+    <AssemblyOriginatorKeyFile>Dmr.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
