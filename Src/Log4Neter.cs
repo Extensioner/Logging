@@ -1,4 +1,5 @@
 ﻿using log4net;
+using log4net.Config;
 using log4net.Repository;
 using System;
 using System.IO;
@@ -8,16 +9,15 @@ namespace Extensioner.Logging
     internal class Log4Neter : ILogger
     {
 
-        private const string _logRepositoryName = "Extensioner";
         private static ILoggerRepository _logRepository;
         private static ILog _log;
 
         public Log4Neter()
         {
-            var logCfg = new FileInfo(Directory.GetCurrentDirectory() + "\\" + "log4net.config");
-            _logRepository = LogManager.CreateRepository(_logRepositoryName);
-            log4net.Config.XmlConfigurator.Configure(_logRepository, logCfg);
-            _log = LogManager.GetLogger(_logRepositoryName, "Log4NetLogger");
+            var logCfg = new FileInfo("log4net.config");
+            _logRepository = LogManager.CreateRepository("Extensioner");
+            XmlConfigurator.Configure(_logRepository, logCfg);
+            _log = LogManager.GetLogger(_logRepository.Name, "Log4NetLogger");
         }
 
         public void Debug(string context, string message)

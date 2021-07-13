@@ -2,28 +2,29 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>2.0.0</Version>
+    <Version>1.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Extensioner</Authors>
-    <Description>日志工具类</Description>
+    <Description>静态日志工具类
+</Description>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Copyright>Copyright © 2021 Extensioner</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageTags>Logging,Log</PackageTags>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <PackageProjectUrl>https://github.com/Extensioner/Logging</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Extensioner/Logging</RepositoryUrl>
     <PackageReleaseNotes>None</PackageReleaseNotes>
     <RepositoryType>None</RepositoryType>
     <NeutralLanguage />
-    <AssemblyOriginatorKeyFile>Dmr.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>signature.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <PackageReference Include="log4net" Version="2.0.9" />
+    <PackageReference Include="log4net" Version="2.0.12" />
   </ItemGroup>
 </Project>
